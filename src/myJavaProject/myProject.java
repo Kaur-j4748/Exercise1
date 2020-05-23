@@ -10,32 +10,29 @@ public class myProject {
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
-		int num;
-		System.out.println("Enter an Integer Number: ");
+		System.out.println("Enter an Integer Number to check it is Even or Odd: ");
 		// input
-		num = input.nextInt();
+		int num = input.nextInt();
 		
 		//result
-		System.out.print("Answer :");
+		System.out.println("Answer : ");
 		evenOdd(num);
-		System.out.println();
 		
 
 	}
 	
 	//Method to find out even or odd number
-	public static int evenOdd(int num) {
-		String n = "";
+	static void evenOdd(int num) {
+
 		
 		if(num % 2 == 0) {
-			n = num + "is an even number";
-		
-	}
-	else {
-		n = num + "is an odd number";
-	}
+			System.out.print(num + " is an even number");
 	
-	return num;
+	}
+	else 
+		System.out.print(num + " is an odd number");
+
+	
 
 }
 }
