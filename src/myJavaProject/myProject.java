@@ -18,6 +18,13 @@ public class myProject {
 		System.out.println("Answer : ");
 		evenOdd(num);
 		
+		/*
+		 * *Git now is branch b1
+		 * from now on until switching out of branch b1
+		 * any changed occur here will be tracked in branch b1
+		 * and will not be reflected in any other branch unless b1 is 
+		 * merged later with that branch
+		 */
 
 	}
 	
